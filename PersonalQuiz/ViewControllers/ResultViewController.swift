@@ -35,10 +35,6 @@ class ResultViewController: UIViewController {
         
         whoYouAreLabel.text = "Вы – \(findResult().rawValue) "
         descriptionLabel.text = findResult().definition
-        
-        for answer in answers {
-            print(answer)
-        }
     }
     
     // MARK: - IBActions
